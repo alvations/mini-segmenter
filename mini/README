@@ -1,0 +1,29 @@
+###############################################################################
+# mini-segmenter v1.0 (Official Release)
+#
+# @code author: Liling Tan (alvations)
+# @license: GNU GPL v3 (dictionary and test suite licensed differently)
+# @credits: Francis Bond for the NTU-MC test suite, MDBG for their CC-CEDICT
+#
+# For more details on how mini-segmenter works,
+# visit https://github.com/alvations/mini-segmenter
+###############################################################################
+
+Mini-segmenter Usage:
+
+$ tar -zxvf minisegmenter-v1.0.tar.gz
+$ cd minisegmenter-v1.0
+$ python
+>>> import minisegmenter as mini
+>>> sentence = "应有尽有的丰富选择定将为您的旅程增添无数的赏心乐事"
+>>> print mini.segmenter(sentence.decode('utf8'))
+应有尽有 的 丰富 选择 定 将 为 您 的 旅程 增添 无数 的 赏 心 乐事
+
+###############################################################################
+
+Files included in minisegmenter-v1.0.tar.gz :
+- minisegmenter.py
+- cedict_ts.u8 (from http://www.mdbg.net/chindict/chindict.php?page=cedict)
+- all.mcn (test suite sentences from NTU-MC)
+- mini.out (a sample output from using some sentences from the test suite)
+- README
