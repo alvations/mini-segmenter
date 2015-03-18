@@ -1,4 +1,4 @@
-`Mini-segmenter` lightweight lexicon/dictionary based Chinese text segmenter; it adds whitespace to separate and tokenize the text. For example, 
+**Mini-segmenter** lightweight lexicon/dictionary based Chinese text segmenter; it adds whitespace to separate and tokenize the text. For example, 
 
 *Input:*
 ```
